@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 150px;
+}
+
+.avaliacoes {
+    margin-left: auto;
+    background-color: #802655;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    min-height: 15px;
+}
+
+.avaliacoes, .logo {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.avaliacoes:hover {
+    background-color: thistle;
+    transition: 0.9s;
+}
+
+.botao-menu {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20px;
+    height: 21px;
+    cursor: pointer;
+    border: none;
+    gap: 3px;
+    font-size: 10px;
+}
+
+.botao-menu span {
+    width: 100%;
+    height: 3px;
+    background-color: #575757; /* essencial! sem isso não aparece nada */
+    border-radius: 2px;
+}
